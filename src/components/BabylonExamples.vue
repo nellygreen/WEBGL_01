@@ -25,14 +25,17 @@ export default defineComponent({
   canvas {
     width: 70%;
     height: 70%;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
   }
 
   h3 {
     padding: 3rem 0 2rem 0;
-    text-shadow: 3px 3px 2px black;
+    text-shadow: none;
+    color: white;
+    opacity: .1;
+    font-family: Verdana, sans-serif;
     text-transform: uppercase;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
 
